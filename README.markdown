@@ -1,6 +1,6 @@
 # Safeer Ahmed's Cyberpunk Portfolio
 
-![Portfolio Preview](https://via.placeholder.com/1200x600.png?text=Cyberpunk+Portfolio+Preview)
+![Portfolio Preview](https://github.com/safeerahmed8/safu/blob/25fe13e260739c8412e5a0509087918e6a9fc6a1/design.png)
 
 ## Overview
 
