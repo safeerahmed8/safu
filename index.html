@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Safeer Ahmed | Network Hacker & Code Alchemist</title>
+  <link rel="stylesheet" href="safeer.css">
+  <meta name="description" content="The hacker-themed, advanced cyberpunk portfolio of Safeer Ahmed – B.Tech CSE student, networking & software professional.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Safeer Ahmed | Network Hacker & Code Alchemist">
+  <meta property="og:description" content="Explore Safeer's hacker-inspired portfolio: education, skills, projects, and more.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://via.placeholder.com/512x512.png?text=Safeer+Ahmed">
+  <meta property="og:url" content="https://safeerahmed8.github.io/">
+  <!-- JetBrains Mono font -->
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Favicon -->
+  <link rel="icon" href="https://img.icons8.com/fluency/48/000000/hacker.png" />
+ 
+</head>
+<body>
+  <canvas id="matrixRain"></canvas>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="brand">SAFEER</div>
+    <button id="nav-toggle" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+    <ul id="nav-list">
+      <li><a href="#home" class="active"><i class="fa fa-terminal"></i> Home</a></li>
+      <li><a href="#about"><i class="fa fa-user-secret"></i> About</a></li>
+      <li><a href="#education"><i class="fa fa-graduation-cap"></i> Education</a></li>
+      <li><a href="#experience"><i class="fa fa-network-wired"></i> Experience</a></li>
+      <li><a href="#skills"><i class="fa fa-brain"></i> Skills</a></li>
+      <li><a href="#projects"><i class="fa fa-code"></i> Projects</a></li>
+      <li><a href="#certificates"><i class="fa fa-certificate"></i> Certificates</a></li>
+      <li><a href="#awards"><i class="fa fa-trophy"></i> Awards</a></li>
+      <li><a href="#testimonials"><i class="fa fa-comments"></i> Testimonials</a></li>
+      <li><a href="#team"><i class="fa fa-users"></i> Team</a></li>
+      <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
+      <li><a href="#blog"><i class="fa fa-blog"></i> Blog</a></li>
+    </ul>
+  </nav>
+  <main id="main" tabindex="-1">
+    <!-- HERO -->
+    <section class="hero-section" id="home">
+      <div class="hero-content">
+        <img src="./safu.jpg" alt="Safeer Ahmed Headshot" class="hero-photo">
+        <div class="hero-title"></div>
+        <div class="hero-subtitle glitch">Network Hacker & Code Alchemist</div>
+        <div class="hero-buttons">
+          <a href="#about" class="btn-neon">Explore Me</a>
+          <a href="#contact" class="btn-glitch">Initiate Contact</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://linkedin.com/in/safeerahmed8" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/safeerahmed8" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://twitter.com/" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT -->
+    <section class="about-section" id="about">
+      <h2><i class="fa fa-user-secret"></i> About Me</h2>
+      <div class="about-terminal-box">
+        <span class="prompt">$</span>
+        <span id="bioText"></span>
+        <a href="#" class="btn-neon" aria-label="Download CV (PDF)">
+          <i class="fa fa-download"></i> 
+        </a>
+      </div>
+      <div class="quick-stats">
+        <div class="stat">
+          <span class="stat-num matrix-digit" data-target="3">0</span>
+          <span class="stat-label">Exploits</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num matrix-digit" data-target="70">0</span>
+          <span class="stat-label">Diploma Score (%)</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num matrix-digit" data-target="4">0</span>
+          <span class="stat-label">Languages Mastered</span>
+        </div>
+      </div>
+    </section>
+    <!-- EDUCATION -->
+    <section class="education-section" id="education">
+      <h2><i class="fa fa-graduation-cap"></i> Education</h2>
+      <div class="edu-timeline">
+        <div class="edu-entry">
+          <span class="dot"></span>
+          <div class="edu-title">B.Tech in CSE, BGSBU</div>
+          <div class="edu-meta">2023-2027 &middot; Ongoing</div>
+          <div class="edu-desc">Pursuing B.Tech in Computer Science at BGSBU.<br>Key Courses: Data Structures, Networking, Algorithms.</div>
+          <div class="edu-files">
+            <a href="#" download>Decrypted Transcript</a>
+          </div>
+        </div>
+        <div class="edu-entry">
+          <span class="dot"></span>
+          <div class="edu-title">Diploma in Networking Administration, Jetking</div>
+          <div class="edu-meta">2021-2022 &middot; 70%</div>
+          <div class="edu-desc">Specialized in CCNA, Linux, and Networking Projects. Hands-on with network setups and troubleshooting.</div>
+          <div class="edu-files">
+            <a href="#" download>Decrypted Transcript</a>
+          </div>
+        </div>
+        <div class="edu-entry">
+          <span class="dot"></span>
+          <div class="edu-title">Class 12th, Himalayan Education Mission</div>
+          <div class="edu-meta">2018-2020 &middot; 64%</div>
+          <div class="edu-desc">Science Stream &middot; Physics, Chemistry, Mathematics.</div>
+        </div>
+        <div class="edu-entry">
+          <span class="dot"></span>
+          <div class="edu-title">Class 10th, Mei Higher Secondary School</div>
+          <div class="edu-meta">2016-2017 &middot; 60%</div>
+          <div class="edu-desc">Foundational education in Science & Mathematics.</div>
+        </div>
+      </div>
+    </section>
+    <!-- EXPERIENCE -->
+    <section class="experience-section" id="experience">
+      <h2><i class="fa fa-network-wired"></i> Experience</h2>
+      <div class="exp-timeline">
+        <div class="exp-entry">
+          <span class="dot"></span>
+          <div class="exp-title">Field Engineer, Sachindanand Traders</div>
+          <div class="exp-meta">03/2022 - 10/2022</div>
+          <div class="exp-desc">Network troubleshooting, hardware maintenance, client support, real-time diagnostics, onsite and remote interventions.</div>
+          <div class="exp-tags">
+            <span class="exp-tag">CCNA</span>
+            <span class="exp-tag">Linux</span>
+            <span class="exp-tag">Teamwork</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SKILLS -->
+    <section class="skills-section" id="skills">
+      <h2><i class="fa fa-brain"></i> Skills</h2>
+      <div class="skills-categories">
+        <div class="skills-category">
+          <h3>Technical Skills</h3>
+          <div class="skill-bar"><div class="skill-bar-fill" data-fill="90"><span class="skill-label">CCNA</span></div></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-fill="85"><span class="skill-label">Linux</span></div></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-fill="80"><span class="skill-label">Python</span></div></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-fill="73"><span class="skill-label">HTML</span></div></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-fill="65"><span class="skill-label">C</span></div></div>
+          <div class="skills-tags">
+            <span class="skills-tag">MS Office</span>
+            <span class="skills-tag">C++</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3>Soft Skills</h3>
+          <div class="skills-tags">
+            <span class="skills-tag">Accuracy</span>
+            <span class="skills-tag">Teamwork</span>
+            <span class="skills-tag">Time Management</span>
+            <span class="skills-tag">Communication</span>
+            <span class="skills-tag">Listening</span>
+            <span class="skills-tag">Confidence</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3>Operating Systems</h3>
+          <div class="skills-tags">
+            <span class="skills-tag">Linux</span>
+            <span class="skills-tag">Windows</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3>Languages</h3>
+          <div class="lang-circles-row">
+            <div class="lang-circle"><span>100%</span><span class="lang-label">English</span></div>
+            <div class="lang-circle"><span>100%</span><span class="lang-label">Hindi</span></div>
+            <div class="lang-circle"><span>100%</span><span class="lang-label">Urdu</span></div>
+            <div class="lang-circle"><span>50%</span><span class="lang-label">German</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROJECTS -->
+    <section class="projects-section" id="projects">
+      <h2><i class="fa fa-code"></i> Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="https://via.placeholder.com/300x180.png?text=Network+Monitor" alt="Network Monitoring Tool" />
+          <h3>Network Monitoring Tool</h3>
+          <p>Python tool using SNMP for real-time network stats.</p>
+          <div class="project-links">
+            <a href="#" class="card-link" aria-label="View on GitHub"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" class="card-link" aria-label="Live demo"><i class="fa fa-link"></i> Demo</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="https://via.placeholder.com/300x180.png?text=Portfolio+Site" alt="Personal Portfolio Website" />
+          <h3>Personal Portfolio Website</h3>
+          <p>This cyberpunk portfolio, built with HTML, CSS & JS.</p>
+          <div class="project-links">
+            <a href="#" class="card-link" aria-label="View on GitHub"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" class="card-link" aria-label="Live demo"><i class="fa fa-link"></i> Demo</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="https://via.placeholder.com/300x180.png?text=Linux+Server" alt="Linux Server Setup" />
+          <h3>Linux Server Setup</h3>
+          <p>Configured Linux server for secure hosting.</p>
+          <div class="project-links">
+            <a href="#" class="card-link" aria-label="View details"><i class="fa fa-book"></i> Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CERTIFICATES -->
+    <section class="certificates-section" id="certificates">
+      <h2><i class="fa fa-certificate"></i> Certificates</h2>
+      <div class="certs-grid">
+        <div class="cert-card">
+          <img src="https://img.icons8.com/color/96/000000/certificate.png" alt="CCNA Certification" />
+          <div class="cert-title">CCNA Certification</div>
+          <div class="cert-meta">Jetking · 2022</div>
+          <a href="#" download>Decrypted Certificate</a>
+        </div>
+        <div class="cert-card">
+          <img src="https://img.icons8.com/color/96/000000/python.png" alt="Python Basics" />
+          <div class="cert-title">Python Basics</div>
+          <div class="cert-meta">Online Course</div>
+          <a href="#" download>Decrypted Certificate</a>
+        </div>
+        <div class="cert-card">
+          <img src="https://img.icons8.com/color/96/000000/linux.png" alt="Linux Administration" />
+          <div class="cert-title">Linux Administration</div>
+          <div class="cert-meta">Online Course</div>
+          <a href="#" download>Decrypted Certificate</a>
+        </div>
+      </div>
+    </section>
+    <!-- AWARDS -->
+    <section class="awards-section" id="awards">
+      <h2><i class="fa fa-trophy"></i> Awards</h2>
+      <div class="awards-list">
+        <div class="award-item">
+          <img src="https://img.icons8.com/fluency/96/000000/trophy.png" alt="Best Project Award" />
+          <div class="award-details">
+            <div class="award-title">Best Project Award</div>
+            <div class="award-meta">Jetking · for Network Monitoring Tool</div>
+            <div class="award-desc">Recognized for innovative real-time network monitoring project.</div>
+            <a href="#" class="award-link">Secure Portal</a>
+          </div>
+        </div>
+        <div class="award-item">
+          <img src="https://img.icons8.com/fluency/96/000000/prize.png" alt="Academic Excellence" />
+          <div class="award-details">
+            <div class="award-title">Academic Excellence</div>
+            <div class="award-meta">BGSBU · Semester Performance</div>
+            <div class="award-desc">Top 10% in academic results (2023-24).</div>
+            <a href="#" class="award-link">Secure Portal</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIALS -->
+    <section class="testimonials-section" id="testimonials">
+      <h2><i class="fa fa-comments"></i> Testimonials</h2>
+      <div class="testimonials-slider">
+        <div class="testimonial-card active">
+          <img src="https://img.icons8.com/color/96/000000/user-male-circle.png" class="testimonial-photo" alt="Mr. Chauhan Privesh">
+          <div>“Safeer is a dedicated and skilled professional with a strong grasp of networking concepts.”</div>
+          <div class="testimonial-meta">- Mr. Tahir Naseer</div>
+        </div>
+        <div class="testimonial-card">
+          <img src="https://img.icons8.com/fluency/96/000000/user-female-circle.png" class="testimonial-photo" alt="Colleague">
+          <div>“Safeer's problem-solving skills and teamwork were exceptional.”</div>
+          <div class="testimonial-meta">- Colleague, Sachindanand Traders</div>
+        </div>
+      </div>
+      <a href="#contact" class="btn-neon">Share Your Feedback</a>
+    </section>
+    <!-- TEAM -->
+    <section class="team-section" id="team">
+      <h2><i class="fa fa-users"></i> Team & Collaborators</h2>
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="https://img.icons8.com/color/96/000000/user-male-circle.png" alt="Mr. Chauhan Privesh">
+          <h3>Mr. Tahir Naseer</h3>
+          <div class="team-meta">Founder, IndoGerman Education</div>
+          <div class="team-contact">
+            <a href="mailto:chauhanprivesh@gmail.com"><i class="fa fa-envelope"></i></a>
+            <a href="tel:+918780217983"><i class="fa fa-phone"></i></a>
+          </div>
+        </div>
+        <div class="team-card">
+          <img src="https://img.icons8.com/fluency/96/000000/user-male-circle.png" alt="Placeholder">
+          <h3>Future Collaborator</h3>
+          <div class="team-meta">Your Name Here</div>
+          <div class="team-contact">
+            <a href="#"><i class="fa fa-envelope"></i></a>
+            <a href="#"><i class="fa fa-phone"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+      <form class="contact-form" id="contactForm" autocomplete="off">
+        <label for="contact-name">Name</label>
+        <input type="text" required id="contact-name" name="name" aria-label="Name">
+        <label for="contact-email">Email</label>
+        <input type="email" required id="contact-email" name="email" aria-label="Email">
+        <label for="contact-subject">Subject</label>
+        <input type="text" required id="contact-subject" name="subject" aria-label="Subject">
+        <label for="contact-message">Message</label>
+        <textarea required id="contact-message" name="message" rows="5" aria-label="Message"></textarea>
+        <button type="submit">Send Message</button>
+        <div id="contact-status"></div>
+      </form>
+      <div class="contact-info">
+        <h3>Contact Info</h3>
+        <div class="info-row"><i class="fa fa-envelope"></i> safeerahmedbhatti152@gmail.com</div>
+        <div class="info-row"><i class="fa fa-phone"></i> +91 9682361014</div>
+        <div class="info-row"><i class="fa fa-map-marker-alt"></i> Ralyote, Rajouri, India</div>
+        <div class="info-links">
+          <a href="https://linkedin.com/in/safeerahmed8" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/safeerahmed8" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://twitter.com/" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="contact-map">
+        <iframe src="https://www.google.com/maps?q=Ralyote,+Rajouri,+India&output=embed"></iframe>
+      </div>
+    </section>
+    <!-- BLOG -->
+    <section class="blog-section" id="blog">
+      <h2><i class="fa fa-blog"></i> Blog</h2>
+      <div class="blog-grid">
+        <div class="blog-card">
+          <div class="blog-title">My Journey in Networking</div>
+          <div class="blog-meta">June 2025</div>
+          <div class="blog-desc">Exploring how I started in networking, CCNA, and real-world experiences.</div>
+          <a href="#" class="blog-link">Read More</a>
+        </div>
+        <div class="blog-card">
+          <div class="blog-title">Linux: The Hacker's OS</div>
+          <div class="blog-meta">May 2025</div>
+          <div class="blog-desc">Why I love Linux and how it powers my daily workflow and projects.</div>
+          <a href="#" class="blog-link">Read More</a>
+        </div>
+        <div class="blog-card">
+          <div class="blog-title">Building This Portfolio</div>
+          <div class="blog-meta">April 2025</div>
+          <div class="blog-desc">A deep dive into the design, code, and animations behind this site.</div>
+          <a href="#" class="blog-link">Read More</a>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer-terminal">
+      <div class="footer-socials">
+        <a href="https://linkedin.com/in/safeerahmed8" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/safeerahmed8" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:safeerahmedbhatti152@gmail.com" aria-label="Email"><i class="fa fa-envelope"></i></a>
+      </div>
+      <small>&copy; 2025 Safeer Ahmed • <span class="neon">Network Hacker & Code Alchemist</span></small>
+    </footer>
+  </main>
+  <script src="safeer.js"></script>
+</body>
+</html>
