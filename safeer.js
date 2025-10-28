@@ -48,7 +48,7 @@
     }
     window.addEventListener('DOMContentLoaded', typeHero);
     // About Typing Effect
-    const bioText = "Aspiring network hacker & code alchemist; B.Tech CSE at BGSBU. Experienced in networking, Linux, Python, and more. Passionate about cyberpunk tech, creating secure and innovative solutions.";
+    const bioText = " Experienced in networking, Linux, Python, and more. Passionate about cyberpunk tech, creating secure and innovative solutions.";
     const bioSpan = document.getElementById('bioText');
     let bioIndex = 0;
     function typeBio() {
@@ -115,11 +115,12 @@
         status.style.color = '#8B00FF';
         return;
       }
-      const mailto = `mailto:safeerahmedbhatti152@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent('Name: '+name+'\nEmail: '+email+'\n\n'+message)}`;
+      const mailto = ?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent('Name: '+name+'\nEmail: '+email+'\n\n'+message)}`;
       window.location.href = mailto;
       status.textContent = "Opening email client...";
       status.style.color = '#00FF00';
       setTimeout(()=>{status.textContent='';},3500);
       this.reset();
     });
+
   
