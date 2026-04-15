@@ -179,12 +179,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For questions or collaboration, reach out to me:
-
-- **Email**: safeerahmedbhatti152@gmail.com
-- **LinkedIn**: [linkedin.com/in/safeerahmed8](https://linkedin.com/in/safeerahmed8)
 - **GitHub**: [github.com/safeerahmed8](https://github.com/safeerahmed8)
-- **Phone**: +91 9682361014
-- **Location**: Ralyote, Rajouri, India
+
+- **Location**: , India
 
 ---
 
